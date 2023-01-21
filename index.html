@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+           background-color: rgb(101, 125, 137);
+           margin: 0;
+        }
+        .signupbtn{
+            width: 200px;
+            border-radius: 10px;
+            height: 50px;
+            margin-top:70px ;
+          margin-left: 45%;
+            top: 50%;
+           
+        }
+        h1{
+            text-align: center;
+            font-size: 4rem;
+        }
+        .signupbtn:hover{
+            background-color: black;
+            color: aliceblue;
+            
+             transition:0.6s;
+        }
+        
+        .form{
+         
+         margin-top: 50px;
+          display:block;
+         
+                    
+        }
+
+        .p{
+             font-size: 1.5rem;
+            text-align: center;
+        }
+        .fo{
+         padding: 7px;
+         display: inline;
+         
+        }
+        label{
+            font-size: 1.5rem;
+
+        }
+      #textboxid{
+        height:25px;
+         width: 255px;
+      }  
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <p class="p">Please fill in this form to create an account.</p>
+        <hr>
+         <div class="form">
+
+          <div class="fo">
+        <label for="name"><b>Name</b></label>
+        <input type="text"  id="textboxid" placeholder="Enter Name" name="email"   size="30" required>
+        </div>
+          <div class="fo">
+        <label for="email"><b>Email</b></label>
+        <input type="email"  id="textboxid" placeholder="Enter Email" name="email" required>
+        </div>
+
+        <div class="fo">
+        <label for="psw"><b>Password</b></label>
+        <input type="password"  id="textboxid" placeholder="Enter Password" name="psw" required>
+         </div>
+
+         <div class="fo">
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password"  id="textboxid" placeholder="Repeat Password" name="psw-repeat" required>
+        </div>
+
+          </div>
+        </div>
+       
+        <button type="submit" class="signupbtn">Sign Up</button>
+   
+</body>
+</html>
